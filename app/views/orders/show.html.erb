@@ -1,0 +1,6 @@
+<p id="notice"><%= notice %></p>
+<p> Order Number:<%=@order.id %> </p>
+<%= @order.customer.first_name %>
+<%= @order.price %> 
+
+<%= link_to 'Back', orders_path %>
